@@ -121,7 +121,7 @@ while True:
   elif health_stat2 > health_stat1:
     print(f'Oh no! {fighter1} has died! 🤦‍♂️🤦‍♂️😭😭')
     print()
-    print(f'\033[36m{fighter2} has destroyed {fighter1} in just {x} rounds 😂😂😂😂\033[0m')
+    print(f'\033[36m{fighter2} has destroyed {fighter1} in just {x} rounds! 😂😂😂😂\033[0m')
     print()
   time.sleep(2)
   ask = input('Do you want to play this game again? y/n: ').lower()
